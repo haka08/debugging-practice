@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', function() {
       }
 
       // If we have selected two cards, see if they match.
-      else if (selectedCards.length === 2) {
+      if (selectedCards.length === 2) {
         var card1 = selectedCards[0];
         var card2 = selectedCards[1];
 
